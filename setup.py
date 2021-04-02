@@ -26,7 +26,7 @@ with open("requirements.txt", "r") as fh:
     install_requires = fh.read().split("\n")
 
 setuptools.setup(
-    name="jinjamator-plugin-output-apic",
+    name="jinjamator-plugin-content-apic",
     version=version,
     author="Wilhelm Putz",
     author_email="jinjamator@aci.guru",
